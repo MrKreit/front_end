@@ -1,0 +1,76 @@
+.headline {
+    text-align: center;
+    font-size: 70px;
+    letter-spacing: .7px;
+    text-decoration: underline;
+
+}
+
+hr {
+    border: none;
+    background-color: red;
+    height: 2px;
+}
+
+.subheader {
+    color: rgba(10, 8, 8, 0.998);
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-bottom: 5px;
+    margin-left: 192px;
+    font-weight: 700;
+
+}
+
+.intro {
+    text-align: justify;
+    font-style: italic;
+    font-weight: 800;
+
+}
+
+p {
+
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: justify;
+
+}
+
+.main-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 550;
+    font-style: oblique;
+
+}
+
+.text-more {
+    color: red;
+    font-weight: 700;
+}
+
+.idea {
+    color: blueviolet;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.footer-element {
+    background: #141414;
+    padding-top: 37px;
+    padding-bottom: 50px;
+    color: rgba(255, 255, 255, 0.918);
+    /* overflow: hidden; */
+    text-align: center;
+}
+
+#panda {
+    float: left;
+    height: 190px;
+
+}
+
+.main-text span {
+    color: red;
+
+}
