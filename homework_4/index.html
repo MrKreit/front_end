@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letter to Santa</title>
+</head>
+
+
+<body>
+    <form method="get" id=",content-form" target="_blank" action="greetings.html">
+        <div>
+            <h1>Letter to Santa</h1>
+        </div>
+        <div>
+            <p>
+                Dear friend, don't hesitate to tell us your dreams about who you are and what you want for Christmas
+            </p>
+        </div>
+
+        <div>
+            <label>
+                <!-- Login -->
+                <input type="login" name="login" placeholder="Enter your login">
+            </label>
+        </div>
+        <br>
+        <div>
+            <label>
+                <!-- Password -->
+                <input type="password" name="password" placeholder="Enter your password">
+
+            </label>
+        </div>
+        <br>
+        <div>
+            <label>
+                <!-- Name -->
+                <input type="name" name="name" placeholder="Enter your name">
+
+            </label>
+        </div>
+        <br>
+        <div>
+            <p>Sex:</p>
+            <p>
+                <input id="sex1" type="radio" name="sex">
+                <label for="sex1">Boy</label>
+                <input id="sex2" type="radio" name="sex">
+                <label for="sex2">Girl</label>
+            </p>
+        </div>
+        <div>
+            <label for="birth-date">Date of birth:</label>
+            <input type="date" id="birth-date" name="birthDate">
+        </div>
+        <br>
+        <div>
+            <select name="city" id="city-list">
+
+                <option value="city1">Berlin</option>
+                <option value="city2">Munich</option>
+                <option value="city3">Dresden</option>
+                <option value="city4">Frankfurt on the main</option>
+            </select>
+        </div>
+        <p>Choose the color of you new toy</p>
+        
+        <div>
+            <input type="color" id="favorite-toy" name="color">
+            <label for="favorite-toy">Cap</label>
+        </div>
+        <div>
+            <input type="color" id="favorite-toy" name="color">
+            <label for="favorite-toy">Costume</label>
+        </div>
+        
+        <p>Were you a good kid?</p>
+        <div>
+            <input type="radio" id="good-kid" name="good-kid">
+            <label for="good-kid">Yes</label>
+            <input type="radio" id="good-kid" name="good-kid">
+            <label for="good-kid">No</label>
+
+
+        </div>
+        <br>
+        <div>
+            <button type="submit">Send a letter to Santa</button>
+            <!-- onclick="document" -->
+        </div>
+
+        <button type="reset">Reset</button>
+
+
+
+
+
+
+    </form>
+
+</body>
+
+</html>
